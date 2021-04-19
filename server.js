@@ -29,6 +29,3 @@ db.once('open', () => console.info('Connected to mongoDB...'))
 app.use('/', indexRouter)
 
 app.listen(process.env.PORT || 3000, console.log('Server is running...'))
-
-
-/**/
